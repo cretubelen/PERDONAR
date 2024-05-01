@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url('corazon.png'); /* Cambia esto por el path real de tu imagen */
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    animation: floatBackground 20s linear infinite;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+@keyframes floatBackground {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
+}
+
+h1 {
+    color: #333;
+    font-size: 3em; /* Hace el título más grande */
+    margin: 0;
+    padding-bottom: 20px; /* Espacio entre el título y los botones */
+}
+
+button {
+    padding: 15px 30px; /* Botones más grandes */
+    margin: 5px; /* Espacio entre los botones */
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
+    font-size: 18px; /* Tamaño inicial más grande */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#btnNo:hover {
+    background-color: #f44336;
+}

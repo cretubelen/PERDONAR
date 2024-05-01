@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-    background-image: url('corazon.png'); /* Cambia esto por el path real de tu imagen */
+    background-image: url('corazon.png');
     background-repeat: repeat;
     background-size: contain;
     background-position: center;
